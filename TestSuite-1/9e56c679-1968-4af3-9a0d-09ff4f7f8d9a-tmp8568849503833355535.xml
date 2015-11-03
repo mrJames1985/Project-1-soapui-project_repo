@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="9e56c679-1968-4af3-9a0d-09ff4f7f8d9a" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase 1" searchProperties="true" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="9e56c679-1968-4af3-9a0d-09ff4f7f8d9afileName">TestCase-1</con:setting>
+  </con:settings>
+  <con:testStep type="groovy" name="Groovy Script" id="95eddb0f-edd1-4cbf-a526-37becda759a5">
+    <con:settings/>
+    <con:config>
+      <script>log.info "Test 1 2 3"</script>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>
