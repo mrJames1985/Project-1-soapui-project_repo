@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="67f26c76-2551-4147-bdc3-02dd40b497c0" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase 1" searchProperties="true" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="67f26c76-2551-4147-bdc3-02dd40b497c0fileName">TestCase-1</con:setting>
+  </con:settings>
+  <con:testStep type="groovy" name="Groovy Script" id="aaf77374-24cb-4259-89b4-3e6c269336e7">
+    <con:settings/>
+    <con:config>
+      <script>import com.eviware.soapui.impl.wsdl.submit.transports.jms.JMSEndpoint
+
+log.info "Testing 1 2 3"
+JMSEndpoint jmsEndpoint = new JMSEndpoint("jms://" + "test" + "::-::" + "Q1");</script>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>
