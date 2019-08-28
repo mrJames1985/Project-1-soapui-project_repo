@@ -1,4 +1,8 @@
 # Starter pipeline
+- task: SoapUIProForAzureDevOpsTask@2
+  inputs:
+    testRunnerPath: 'C:\Program Files\SmartBear\ReadyAPI-2.8.0\bin'
+    project: 'C:\SoapUI\SOAPUI Projects\Basic-Groovy-Test-soapui-project.xml'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
